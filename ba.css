@@ -1,0 +1,63 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5e6d3;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #1c3618;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Navbar */
+h2 {
+    background-color: #6f4e37;
+    padding: 15px;
+    margin: 0;
+}
+
+h2 a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #fff8f0;
+}
+
+/* Boxes */
+.contact-box {
+    background-color: #f5e6d3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Inputs */
+.contact-box input,
+.contact-box textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #6f4e37;
+    border-radius: 5px;
+}
+
+/* Button */
+.contact-box button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
